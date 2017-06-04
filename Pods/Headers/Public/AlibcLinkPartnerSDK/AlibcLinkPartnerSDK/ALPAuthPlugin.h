@@ -1,0 +1,1 @@
+../../../../AlibcLinkPartnerSDK/AlibcLinkPartnerSDK.framework/Headers/ALPAuthPlugin.h

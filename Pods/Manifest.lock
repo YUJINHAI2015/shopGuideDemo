@@ -1,0 +1,56 @@
+PODS:
+  - AlibabaAuthSDK (1.1.0.31):
+    - BCUserTrack
+    - mtop
+    - SecurityGuardSDK
+    - SGMain
+    - SGSecurityBody
+  - AlibcLinkPartnerSDK (1.1.0.9):
+    - UTDID
+  - AlibcTradeSDK (3.1.1.96):
+    - AlibabaAuthSDK
+    - AlibcLinkPartnerSDK
+    - AlipaySDK (= 2.0.0-bc)
+    - BCUserTrack
+    - mtop
+    - SecurityGuardSDK
+    - SGMain
+  - AlipaySDK (2.0.0-bc)
+  - BCUserTrack (5.1.0.9):
+    - UTDID
+  - mtop (2.0.2):
+    - SecurityGuardSDK
+    - SGMain
+    - SGNoCaptcha
+    - SGSecurityBody
+  - SecurityGuardSDK (5.1.94)
+  - SGMain (5.1.94):
+    - SecurityGuardSDK (= 5.1.94)
+  - SGNoCaptcha (5.1.23):
+    - SecurityGuardSDK (>= 5.1.83)
+    - SGMain (>= 5.1.83)
+    - SGSecurityBody (>= 5.1.27)
+  - SGSecurityBody (5.1.29):
+    - SecurityGuardSDK (>= 5.1.94)
+    - SGMain (>= 5.1.94)
+  - UTDID (1.1.0.16)
+
+DEPENDENCIES:
+  - AlibcTradeSDK
+
+SPEC CHECKSUMS:
+  AlibabaAuthSDK: 48fdbd517aac2155064db12c8776849f273f3242
+  AlibcLinkPartnerSDK: 0d74d4365124cee35a9e24ee6c1456d0477eed33
+  AlibcTradeSDK: 698894fa05ebada6a0d5ec4f91bc27ba99ac71d4
+  AlipaySDK: a40a4099b24328d90d7ba4fb67f6ce753d7fa2c7
+  BCUserTrack: 684f468b8143be7a2ed10a8c449fd959b2a3a099
+  mtop: 80e94a1db90f23c5c5e8f1892a7b3c8ff9c6cbae
+  SecurityGuardSDK: 05f6d782189160f2b23b731eed5cb314ce584855
+  SGMain: 8a3008d8a709259d4868f78ae3265659e58e4416
+  SGNoCaptcha: faaa0d84ec26329680a8a1486417c91caab06a85
+  SGSecurityBody: '098c981416d0f04faa605642e2da3bb556419f73'
+  UTDID: c28855683c5ea2e77e597cb14609328f7d470d6e
+
+PODFILE CHECKSUM: 0ec74e51845bbc947f08b776e543a4716151ad17
+
+COCOAPODS: 1.1.1
